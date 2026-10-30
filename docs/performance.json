@@ -1,0 +1,97 @@
+{
+  "baseline": {
+    "draw": {
+      "meanMs": 154.64333333329608,
+      "p50Ms": 155.09999999962747,
+      "p95Ms": 161.20000000018626
+    },
+    "update": {
+      "meanMs": 5.4733333333705865,
+      "p50Ms": 5,
+      "p95Ms": 6.6000000005587935
+    },
+    "gfxTotalMs": {
+      "collectDynamicLights": 0.39999999944120646,
+      "drawComprehensiveTerrain": 224,
+      "applyShadowTransform": 9.099999994970858,
+      "applyDynamicLightingToStructure": 4075.30000003241,
+      "getImageShadowSilhouette": 7.20000000204891
+    },
+    "caches": {
+      "terrainBytes": 77440000
+    },
+    "lobby": {
+      "requests": 248,
+      "encodedBytes": 17280176
+    },
+    "errors": []
+  },
+  "optimized": {
+    "draw": {
+      "meanMs": 56.94000000000621,
+      "p50Ms": 55.700000000186265,
+      "p95Ms": 93.8999999994412
+    },
+    "update": {
+      "meanMs": 5.606666666641831,
+      "p50Ms": 5,
+      "p95Ms": 10.099999999627471
+    },
+    "gfxTotalMs": {
+      "collectDynamicLights": 0.39999999944120646,
+      "drawComprehensiveTerrain": 242.7000000020489,
+      "getImageShadowSilhouette": 6.20000000204891,
+      "applyShadowTransform": 7.29999999795109,
+      "applyDynamicLightingToStructure": 1217.1999999927357
+    },
+    "caches": {
+      "images": {
+        "bytes": 18760352,
+        "limit": 25165824,
+        "entries": 8,
+        "hits": 1746,
+        "misses": 8
+      },
+      "animations": {
+        "bytes": 3145728,
+        "limit": 20971520,
+        "entries": 1,
+        "hits": 67,
+        "misses": 2
+      },
+      "terrain": {
+        "bytes": 14520000,
+        "limit": 25165824,
+        "entries": 12,
+        "hits": 384,
+        "misses": 24
+      },
+      "shadows": {
+        "bytes": 6278112,
+        "limit": 12582912,
+        "entries": 11,
+        "hits": 8807,
+        "misses": 11
+      },
+      "lighting": {
+        "bytes": 12483924,
+        "limit": 16777216,
+        "entries": 557,
+        "hits": 4675,
+        "misses": 557
+      },
+      "patterns": {
+        "bytes": 0,
+        "limit": 8388608,
+        "entries": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    "lobby": {
+      "requests": 7,
+      "encodedBytes": 2565080
+    },
+    "errors": []
+  }
+}
