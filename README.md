@@ -2,6 +2,10 @@
 
 Game roguelike vẽ bùa, chạy bằng JavaScript và Canvas trong trình duyệt.
 
+## Làm việc chung
+
+Đọc [hướng dẫn cho game designer và AI](docs/LAM_VIEC_CHUNG.md): bắt đầu với GitHub, viết yêu cầu, dùng nhánh/PR, chơi thử, phối hợp hai người và xử lý conflict. Có prompt copy sẵn, mẫu Issue và mẫu PR.
+
 ## Chạy thử
 
 Tại thư mục repo:
